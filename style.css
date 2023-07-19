@@ -33,6 +33,20 @@ body{
 .container img{
     width: 100%;
 }
+#startButton {
+    font-family: 'Righteous';
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0c7dc9ce;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#startButton:hover {
+    background-color: rgba(1, 24, 230, 0.76); 
+}
 
 p{
     font-weight: 400;
